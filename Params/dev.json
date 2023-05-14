@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "North Europe"
+    },
+    "saName": {
+      "value": "sa1305dev"
+    },
+    "aciName": {
+      "value": "aci1305dev"
+    },
+    "aciImage": {
+      "value": "mcr.microsoft.com/azuredocs/aci-helloworld"
+    },
+    "saSku": {
+      "value": "Standard_LRS"
+    },
+    "aciCpu": {
+      "value": 2
+    },
+    "aciMemory": {
+      "value": 2
+    }
+  }
+}
