@@ -20,5 +20,3 @@ New-AzResourceGroupDeployment `
     -TemplateFile ".\main.bicep" `
     -TemplateParameterFile $paramFile `
     -Mode Complete
-
-Remove-Item -Path ".\main.json"
